@@ -15,7 +15,7 @@ export default class NotFound extends React.Component {
     };
 
     if (window.performance) {
-      if (performance.navigation.type === 1) {
+      if (performance.navigation.type == 1) {
         this.increaseCount();
         currentImage = this.state.count;
       } else {
