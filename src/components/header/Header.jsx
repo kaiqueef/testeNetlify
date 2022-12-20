@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
-const Header = (props) => {
+export default (props) => {
   return (
     <section className="header">
       <Link to="/" className="logo">
@@ -53,5 +53,3 @@ const Header = (props) => {
     </section>
   );
 };
-
-export default Header;
